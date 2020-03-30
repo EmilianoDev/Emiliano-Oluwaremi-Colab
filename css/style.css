@@ -1,11 +1,12 @@
 #image {
- min-width: 700px;
+width: 100%; 
+max-width: 800px; 
  max-height: 500px;
+ height: auto;
  margin: auto;
 display: block;
 border-radius: 5%;
 }
-
 #main {
     margin: auto;
     width: 100%
@@ -37,4 +38,6 @@ p, ul {
     text-align: justify;
     margin: auto;
 }
-
+#link{
+    margin-top: 30px;
+}
